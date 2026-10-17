@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `nipy/nipype <https://github.com/nipy/nipype>`__. Nipype provides a common Python interface to neuroimaging tools such as FSL, FreeSurfer, AFNI, ANTs, and SPM, so processing steps from different packages can be composed into one workflow. It is useful for making those connections explicit and sharing processing pipelines.
+
+The fork's `upstream PR #3784 <https://github.com/nipy/nipype/pull/3784>`__ proposes inspecting executable dependencies without shell parsing. It was open on 17 October 2026 and is tracked on its linked feature branch.
+
+Start with the `official documentation <https://nipype.readthedocs.org/en/latest/>`__ for installation, interfaces, and workflow examples; individual tools have their own requirements. `Compare the default branch with upstream <https://github.com/jdotc1/nipype/compare/nipy:master...jdotc1:master>`__. The upstream README and its community and contribution links are preserved below.
+
+.. rubric:: Upstream README
+
 .. image:: https://raw.githubusercontent.com/nipy/nipype/master/doc/_static/nipype-banner-bg.png
    :target: https://nipy.org/nipype
    :alt: Nipype logo
